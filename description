@@ -1,0 +1,38 @@
+Just Built: HavenReal — A Full-Stack Luxury Real Estate Portal & CRM! 🏡
+
+This the final project of my 3skill internship
+
+I’m excited to share my latest full-stack web application: HavenReal — a complete, turnkey Real Estate Portal & Management System designed to bridge the gap between luxury property sellers, buyers, renters, and real estate agents! 🌇
+
+Built with a dual-mode architecture, HavenReal operates seamlessly as a lightning-fast Single-Page Application (SPA) or as a full-stack Node.js + Express + SQLite REST API application.
+
+🌟 Key Features & Architectural Highlights:
+🏡 1. Curated Property Listings & Interactive Galleries
+• Mobile-first responsive grid displaying high-res photography, purpose tags (FOR SALE / FOR RENT), and ★ FEATURED badges.
+• Interactive Property Details Modal with a multi-image carousel, architectural descriptions, amenity tags, and listing agent contact cards.
+
+🔍 2. Real-Time 6-Parameter Search & Filter Engine
+• Instant multi-criteria filtering across keyword search, metropolitan cities, purpose, property type, and bedroom thresholds—with zero page reloads!
+• Live sorting (Price: Low to High, Newest First, Featured First) with a real-time results counter and empty-state recovery.
+
+🔐 3. Role-Based Access Control (RBAC) & Separate Login Gateways
+• User Login Gateway: Allows buyers/renters to sign in and automatically pre-fills their contact details when inquiring about properties.
+• Secure Admin Gateway: Protected administrative login portal (#view-admin-login) with route guarding and authenticated session controls.
+
+❤️ 4. One-Click Favourites & Bookmarking System
+• Interactive heart toggles with a live counter badge in the navigation bar and a dedicated Favourites Drawer that persists across sessions.
+
+🛡️ 5. Executive Admin CRUD Dashboard & Lead CRM
+• Inventory Management: Add new listings (with auto-generated slugs and price labels), Edit attributes, Delete properties, and toggle Featured badges.
+• Lead Inquiry CRM: Review incoming customer messages and manage sales lifecycle stages (New Lead ➔ Contacted ➔ Closed).
+
+🛠️ Technology Stack:
+💻 Frontend: Semantic HTML5, Utility-first Tailwind CSS, Custom Glassmorphism UI (backdrop-filter), Plus Jakarta Sans typography, & modular Vanilla ES6+ JavaScript.
+⚙️ Backend: Node.js (v18+), Express.js (v4), & SQLite3 relational SQL database.
+🔒 Security & Storage: Prepared parameterized SQL statements (zero SQLi), client-side input sanitization, and dual-layer state persistence (localStorage + SQLite).
+
+💡 Why This Project Stands Out:
+HavenReal demonstrates clean MVC architecture, RESTful API design, state synchronization, and seamless UX micro-interactions without relying on heavy frontend frameworks. Whether running standalone in the browser or deployed as a Node server, it delivers an enterprise-ready real estate marketplace!
+
+Thank you 3skill for giving me this great opportunity 
+
